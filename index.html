@@ -24,7 +24,16 @@
 
     <!-- application styles -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Lien vers le fichier manifest -->
+    <link rel="manifest" href="ginko.webmanifest">
     
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./service-worker.js");
+        }
+    </script>
+
     <!-- application scripts -->
     <script src="app.js" defer></script>
 

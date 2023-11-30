@@ -1,0 +1,29 @@
+{
+    "short_name": "GinkoBus",
+    "name": "GinkoBus PWA",
+    "icons": [
+      {
+        "src": "./icons/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./icons/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "./icons/maskable_icon.png",
+        "type": "image/png",
+        "sizes": "274x274",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "#000000",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "description": "Application web Ginko développée en TP SAMP en M1 Info"
+  }
